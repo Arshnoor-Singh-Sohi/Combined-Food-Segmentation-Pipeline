@@ -1,0 +1,27 @@
+# requirements.txt
+# ================
+# Core Dependencies for Simple Food Detection System
+
+# Web Interface
+streamlit>=1.28.0
+
+# Computer Vision and Image Processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# SAM (Segment Anything Model)
+segment-anything>=1.0
+
+# AI/ML Dependencies  
+openai>=1.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Optional: For enhanced functionality
+matplotlib>=3.7.0  # For additional visualizations
+pandas>=2.0.0      # For data analysis and export
