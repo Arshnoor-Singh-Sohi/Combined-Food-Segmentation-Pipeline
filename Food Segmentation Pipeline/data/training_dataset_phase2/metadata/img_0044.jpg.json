@@ -1,0 +1,55 @@
+{
+  "original_image": "data\\collected_images\\own_photos\\28.jpg",
+  "training_image": "data\\training_dataset_phase2\\images\\img_0044.jpg",
+  "label_file": "data\\training_dataset_phase2\\labels\\img_0044.txt",
+  "genai_results": {
+    "total_items": 25,
+    "processing_time": "2-3 seconds",
+    "inventory": [
+      {
+        "item_type": "container_individual",
+        "quantity": 8,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "bottle_individual",
+        "quantity": 3,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "jar_individual",
+        "quantity": 3,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "lettuce_individual",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "pepper_individual",
+        "quantity": 3,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "carrot_individual",
+        "quantity": 3,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "orange_individual",
+        "quantity": 4,
+        "confidence": 0.95
+      }
+    ],
+    "summary": {
+      "fruits": 4,
+      "containers": 8,
+      "total_detected": 25
+    },
+    "analysis_method": "GPT-4 Vision",
+    "timestamp": "2025-07-18T09:38:22.642423",
+    "image_processed": "data\\collected_images\\own_photos\\28.jpg"
+  },
+  "conversion_date": "2025-07-18T09:38:22.644649"
+}

@@ -1,0 +1,95 @@
+{
+  "original_image": "data\\collected_images\\own_photos\\8.jpg",
+  "training_image": "data\\training_dataset_phase2\\images\\img_0072.jpg",
+  "label_file": "data\\training_dataset_phase2\\labels\\img_0072.txt",
+  "genai_results": {
+    "total_items": 47,
+    "processing_time": "2-3 seconds",
+    "inventory": [
+      {
+        "item_type": "banana_individual",
+        "quantity": 3,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "apple_individual",
+        "quantity": 4,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "orange_individual",
+        "quantity": 6,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "grape_individual",
+        "quantity": 2,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "pear_individual",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "lemon_individual",
+        "quantity": 3,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "carrot_individual",
+        "quantity": 5,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "tomato_individual",
+        "quantity": 8,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "pepper_individual",
+        "quantity": 3,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "cucumber_individual",
+        "quantity": 2,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "lettuce_individual",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "broccoli_individual",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "watermelon_slice",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "eggplant_individual",
+        "quantity": 2,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "cabbage_individual",
+        "quantity": 1,
+        "confidence": 0.95
+      }
+    ],
+    "summary": {
+      "fruits": 20,
+      "containers": 0,
+      "total_detected": 47
+    },
+    "analysis_method": "GPT-4 Vision",
+    "timestamp": "2025-07-18T09:44:17.218563",
+    "image_processed": "data\\collected_images\\own_photos\\8.jpg"
+  },
+  "conversion_date": "2025-07-18T09:44:17.225835"
+}

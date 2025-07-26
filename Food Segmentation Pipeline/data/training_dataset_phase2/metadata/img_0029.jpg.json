@@ -1,0 +1,45 @@
+{
+  "original_image": "data\\collected_images\\own_photos\\14.jpg",
+  "training_image": "data\\training_dataset_phase2\\images\\img_0029.jpg",
+  "label_file": "data\\training_dataset_phase2\\labels\\img_0029.txt",
+  "genai_results": {
+    "total_items": 24,
+    "processing_time": "2-3 seconds",
+    "inventory": [
+      {
+        "item_type": "lettuce_individual",
+        "quantity": 2,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "egg_individual",
+        "quantity": 12,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "onion_individual",
+        "quantity": 3,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "soda_can_individual",
+        "quantity": 6,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "milk_carton_individual",
+        "quantity": 1,
+        "confidence": 0.95
+      }
+    ],
+    "summary": {
+      "fruits": 0,
+      "containers": 0,
+      "total_detected": 24
+    },
+    "analysis_method": "GPT-4 Vision",
+    "timestamp": "2025-07-18T09:35:30.115454",
+    "image_processed": "data\\collected_images\\own_photos\\14.jpg"
+  },
+  "conversion_date": "2025-07-18T09:35:30.118717"
+}

@@ -1,0 +1,65 @@
+{
+  "original_image": "data\\collected_images\\own_photos\\17.jpg",
+  "training_image": "data\\training_dataset_phase2\\images\\img_0032.jpg",
+  "label_file": "data\\training_dataset_phase2\\labels\\img_0032.txt",
+  "genai_results": {
+    "total_items": 10,
+    "processing_time": "2-3 seconds",
+    "inventory": [
+      {
+        "item_type": "pepper_individual",
+        "quantity": 2,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "lettuce_individual",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "cheese_block",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "milk_bottle",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "egg_carton",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "onion_individual",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "tomato_bowl",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "cabbage_individual",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "green_onion_bunch",
+        "quantity": 1,
+        "confidence": 0.95
+      }
+    ],
+    "summary": {
+      "fruits": 0,
+      "containers": 1,
+      "total_detected": 10
+    },
+    "analysis_method": "GPT-4 Vision",
+    "timestamp": "2025-07-18T09:36:13.141181",
+    "image_processed": "data\\collected_images\\own_photos\\17.jpg"
+  },
+  "conversion_date": "2025-07-18T09:36:13.144426"
+}

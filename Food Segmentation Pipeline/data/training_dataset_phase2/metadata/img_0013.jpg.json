@@ -1,0 +1,75 @@
+{
+  "original_image": "data\\collected_images\\online_sources\\22.jpg",
+  "training_image": "data\\training_dataset_phase2\\images\\img_0013.jpg",
+  "label_file": "data\\training_dataset_phase2\\labels\\img_0013.txt",
+  "genai_results": {
+    "total_items": 31,
+    "processing_time": "2-3 seconds",
+    "inventory": [
+      {
+        "item_type": "milk_individual",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "almond_milk_individual",
+        "quantity": 2,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "yogurt_individual",
+        "quantity": 6,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "cheese_individual",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "egg_carton_individual",
+        "quantity": 2,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "juice_box_individual",
+        "quantity": 12,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "water_bottle_individual",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "carrot_individual",
+        "quantity": 5,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "apple_individual",
+        "quantity": 2,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "orange_individual",
+        "quantity": 2,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "lettuce_individual",
+        "quantity": 1,
+        "confidence": 0.95
+      }
+    ],
+    "summary": {
+      "fruits": 4,
+      "containers": 2,
+      "total_detected": 31
+    },
+    "analysis_method": "GPT-4 Vision",
+    "timestamp": "2025-07-18T09:31:05.139815",
+    "image_processed": "data\\collected_images\\online_sources\\22.jpg"
+  },
+  "conversion_date": "2025-07-18T09:31:05.146936"
+}

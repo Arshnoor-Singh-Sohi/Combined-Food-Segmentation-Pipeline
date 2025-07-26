@@ -1,0 +1,65 @@
+{
+  "original_image": "data\\collected_images\\own_photos\\6.jpg",
+  "training_image": "data\\training_dataset_phase2\\images\\img_0070.jpg",
+  "label_file": "data\\training_dataset_phase2\\labels\\img_0070.txt",
+  "genai_results": {
+    "total_items": 22,
+    "processing_time": "2-3 seconds",
+    "inventory": [
+      {
+        "item_type": "peach_individual",
+        "quantity": 2,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "banana_individual",
+        "quantity": 3,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "grape_individual",
+        "quantity": 20,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "mango_container",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "blueberry_container",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "bell_pepper_individual",
+        "quantity": 2,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "wrapped_meat_container",
+        "quantity": 2,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "yogurt_container",
+        "quantity": 2,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "juice_bottle",
+        "quantity": 3,
+        "confidence": 0.95
+      }
+    ],
+    "summary": {
+      "fruits": 26,
+      "containers": 6,
+      "total_detected": 22
+    },
+    "analysis_method": "GPT-4 Vision",
+    "timestamp": "2025-07-18T09:43:36.492683",
+    "image_processed": "data\\collected_images\\own_photos\\6.jpg"
+  },
+  "conversion_date": "2025-07-18T09:43:36.501863"
+}

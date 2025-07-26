@@ -1,0 +1,70 @@
+{
+  "original_image": "data\\collected_images\\own_photos\\39.jpg",
+  "training_image": "data\\training_dataset_phase2\\images\\img_0056.jpg",
+  "label_file": "data\\training_dataset_phase2\\labels\\img_0056.txt",
+  "genai_results": {
+    "total_items": 15,
+    "processing_time": "2-3 seconds",
+    "inventory": [
+      {
+        "item_type": "egg_carton",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "yogurt_container",
+        "quantity": 4,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "milk_carton",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "butter_container",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "juice_bottle",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "sauce_bottle",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "leftover_container",
+        "quantity": 3,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "lettuce",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "orange",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "bowl",
+        "quantity": 1,
+        "confidence": 0.95
+      }
+    ],
+    "summary": {
+      "fruits": 1,
+      "containers": 8,
+      "total_detected": 15
+    },
+    "analysis_method": "GPT-4 Vision",
+    "timestamp": "2025-07-18T09:40:33.106348",
+    "image_processed": "data\\collected_images\\own_photos\\39.jpg"
+  },
+  "conversion_date": "2025-07-18T09:40:33.109073"
+}

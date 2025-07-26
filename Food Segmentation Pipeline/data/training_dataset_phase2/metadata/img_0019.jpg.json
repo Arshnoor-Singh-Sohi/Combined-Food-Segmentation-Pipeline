@@ -1,0 +1,55 @@
+{
+  "original_image": "data\\collected_images\\online_sources\\5.jpg",
+  "training_image": "data\\training_dataset_phase2\\images\\img_0019.jpg",
+  "label_file": "data\\training_dataset_phase2\\labels\\img_0019.txt",
+  "genai_results": {
+    "total_items": 25,
+    "processing_time": "2-3 seconds",
+    "inventory": [
+      {
+        "item_type": "egg_individual",
+        "quantity": 12,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "carrot_individual",
+        "quantity": 5,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "milk_container",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "juice_bottle",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "soda_can",
+        "quantity": 2,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "condiment_bottle",
+        "quantity": 3,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "leftover_container",
+        "quantity": 1,
+        "confidence": 0.95
+      }
+    ],
+    "summary": {
+      "fruits": 0,
+      "containers": 1,
+      "total_detected": 25
+    },
+    "analysis_method": "GPT-4 Vision",
+    "timestamp": "2025-07-18T09:32:51.210625",
+    "image_processed": "data\\collected_images\\online_sources\\5.jpg"
+  },
+  "conversion_date": "2025-07-18T09:32:51.221772"
+}

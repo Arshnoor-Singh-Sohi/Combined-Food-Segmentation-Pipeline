@@ -1,0 +1,65 @@
+{
+  "original_image": "data\\collected_images\\own_photos\\refrigerator.jpg",
+  "training_image": "data\\training_dataset_phase2\\images\\img_0074.jpg",
+  "label_file": "data\\training_dataset_phase2\\labels\\img_0074.txt",
+  "genai_results": {
+    "total_items": 28,
+    "processing_time": "2-3 seconds",
+    "inventory": [
+      {
+        "item_type": "banana_individual",
+        "quantity": 4,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "pear_individual",
+        "quantity": 3,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "apple_individual",
+        "quantity": 3,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "egg_carton",
+        "quantity": 2,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "lettuce_bag",
+        "quantity": 2,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "carrot_individual",
+        "quantity": 2,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "pepper_individual",
+        "quantity": 3,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "condiment_bottle",
+        "quantity": 5,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "jar",
+        "quantity": 4,
+        "confidence": 0.95
+      }
+    ],
+    "summary": {
+      "fruits": 10,
+      "containers": 6,
+      "total_detected": 28
+    },
+    "analysis_method": "GPT-4 Vision",
+    "timestamp": "2025-07-18T09:44:38.720454",
+    "image_processed": "data\\collected_images\\own_photos\\refrigerator.jpg"
+  },
+  "conversion_date": "2025-07-18T09:44:38.727772"
+}

@@ -1,0 +1,80 @@
+{
+  "original_image": "data\\collected_images\\own_photos\\50.jpg",
+  "training_image": "data\\training_dataset_phase2\\images\\img_0069.jpg",
+  "label_file": "data\\training_dataset_phase2\\labels\\img_0069.txt",
+  "genai_results": {
+    "total_items": 25,
+    "processing_time": "2-3 seconds",
+    "inventory": [
+      {
+        "item_type": "lettuce_individual",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "asparagus_individual",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "milk_individual",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "yogurt_individual",
+        "quantity": 2,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "berry_container",
+        "quantity": 2,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "grape_container",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "orange_individual",
+        "quantity": 2,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "lemon_individual",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "pepper_individual",
+        "quantity": 3,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "tomato_individual",
+        "quantity": 3,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "carrot_individual",
+        "quantity": 4,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "leftover_container",
+        "quantity": 2,
+        "confidence": 0.95
+      }
+    ],
+    "summary": {
+      "fruits": 6,
+      "containers": 5,
+      "total_detected": 25
+    },
+    "analysis_method": "GPT-4 Vision",
+    "timestamp": "2025-07-18T09:43:25.536474",
+    "image_processed": "data\\collected_images\\own_photos\\50.jpg"
+  },
+  "conversion_date": "2025-07-18T09:43:25.539874"
+}

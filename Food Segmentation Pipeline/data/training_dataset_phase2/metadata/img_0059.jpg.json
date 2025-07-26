@@ -1,0 +1,50 @@
+{
+  "original_image": "data\\collected_images\\own_photos\\41.jpg",
+  "training_image": "data\\training_dataset_phase2\\images\\img_0059.jpg",
+  "label_file": "data\\training_dataset_phase2\\labels\\img_0059.txt",
+  "genai_results": {
+    "total_items": 20,
+    "processing_time": "2-3 seconds",
+    "inventory": [
+      {
+        "item_type": "orange_individual",
+        "quantity": 6,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "milk_carton",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "juice_bottle",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "soda_bottle",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "condiment_bottle",
+        "quantity": 1,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "leftover_container",
+        "quantity": 10,
+        "confidence": 0.95
+      }
+    ],
+    "summary": {
+      "fruits": 6,
+      "containers": 10,
+      "total_detected": 20
+    },
+    "analysis_method": "GPT-4 Vision",
+    "timestamp": "2025-07-18T09:41:03.388121",
+    "image_processed": "data\\collected_images\\own_photos\\41.jpg"
+  },
+  "conversion_date": "2025-07-18T09:41:03.391239"
+}

@@ -1,0 +1,40 @@
+{
+  "original_image": "data\\collected_images\\own_photos\\22.jpg",
+  "training_image": "data\\training_dataset_phase2\\images\\img_0038.jpg",
+  "label_file": "data\\training_dataset_phase2\\labels\\img_0038.txt",
+  "genai_results": {
+    "total_items": 20,
+    "processing_time": "2-3 seconds",
+    "inventory": [
+      {
+        "item_type": "orange_individual",
+        "quantity": 5,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "lemon_individual",
+        "quantity": 3,
+        "confidence": 0.95
+      },
+      {
+        "item_type": "jar_individual",
+        "quantity": 8,
+        "confidence": 0.9
+      },
+      {
+        "item_type": "bottle_individual",
+        "quantity": 4,
+        "confidence": 0.9
+      }
+    ],
+    "summary": {
+      "fruits": 8,
+      "containers": 12,
+      "total_detected": 20
+    },
+    "analysis_method": "GPT-4 Vision",
+    "timestamp": "2025-07-18T09:37:27.446277",
+    "image_processed": "data\\collected_images\\own_photos\\22.jpg"
+  },
+  "conversion_date": "2025-07-18T09:37:27.448661"
+}
